@@ -3,7 +3,7 @@ import path from 'path'
 import {
   getOcpApimSubscriptionKey,
   extractOcpApimSubscriptionKeyConcatLogic,
-} from '../src'
+} from '../src/get-ocp-apim-subscription-key'
 
 test(getOcpApimSubscriptionKey.name, () => {
   const obfuscatedJsCode = fs.readFileSync(
